@@ -8,7 +8,7 @@
 .b-head h1 {
     margin:0;
     color:#555;
-    text-shadow:0 2px 2px #ccc;
+    font-weight: normal;
 }
 
 .b-head span {

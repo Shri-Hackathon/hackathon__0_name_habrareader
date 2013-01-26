@@ -14,11 +14,11 @@ blocks['b-page'] = function(data) {
                 content: [
                     {
                         tag: 'h1',
-                        content: 'Парсер Хабра'
+                        content: 'RSS reader'
                     },
                     {
                         tag: 'span',
-                        content: 'Version 0.0.1'
+                        content: 'Version 1.0.0'
                     }
                 ]
             },
