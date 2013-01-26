@@ -1,1 +1,1 @@
-require('lib/app.js').start();
+require('./lib/app.js').start();

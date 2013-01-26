@@ -21,10 +21,13 @@ MAKE.decl('BundleNode', {
 
     getTechs: function() {
         return [
-            //'bemjson.js',
-            //'bemdecl.js',
-            //'deps.js',
-            //'less.css',
+            'bemjson.js',
+            'bemdecl.js',
+            'deps.js',
+            'bemhtml',
+            'js',
+            'css',
+            'priv',
             //'less.ie.css',
             //'bemhtml',
             //'i18n',
