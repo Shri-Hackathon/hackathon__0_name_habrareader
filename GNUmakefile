@@ -13,11 +13,15 @@ all:: $(BEM) server
 	$(info @ ->> $@)
 
 .PHONY: start
-start:: $(NODE_MODULES)
+start:: make
 	node boot.js
 
+.PHONY: make
+make:: $(BEM)
+	@$(BEM) make
+
 .PHONY: server
-server:: $(BEM)
+server:: make
 	@$(BEM) server
 
 $(BEM):: $(NODE_MODULES)
