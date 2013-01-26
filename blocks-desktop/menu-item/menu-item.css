@@ -1,0 +1,18 @@
+.b-menu-item
+{
+    background:#fff;
+    border-bottom:1px solid #ccc;
+    box-shadow:inset 0 -15px 20px -10px #ccc;
+    padding:10px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    cursor:pointer;
+    white-space: nowrap;
+}
+
+.b-menu-item_state_current {
+    background: #58f;
+    color:#fff;
+    box-shadow:inset 0 -15px 20px -10px #9cf;
+    cursor: default;
+}
