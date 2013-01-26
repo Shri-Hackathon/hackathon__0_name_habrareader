@@ -2,8 +2,9 @@
 {
     border-right: 1px solid #ccc;
     position:absolute;
-    top:70px;
+    top:71px;
     left:0;
     bottom:0;
     width:300px;
+    overflow: auto;
 }

@@ -10,6 +10,7 @@ blocks['b-menu'] = function (data) {
                         content:data[i]
                     });
                 }
+                res[0].mods = {'state':'current'};
                 return res;
 
             })(data)
