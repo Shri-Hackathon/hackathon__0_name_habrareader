@@ -1,16 +1,7 @@
 ({
     mustDeps: [
         {
-            elem: 'title'
-        },
-        {
-            block: 'menu-item'
-        },
-        {
-            block: 'menu-item',
-            mods: {
-                state: 'current'
-            }
+            block: 'b-menu-item'
         }
     ],
     shouldDeps: []

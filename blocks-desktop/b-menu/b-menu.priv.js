@@ -14,7 +14,7 @@ blocks['b-menu'] = function (data) {
                         }],
                         attrs: {
                             title: data.posts[i].title,
-                            id: i,
+                            // id: i,
                             url: data.posts[i].url
                         }
                     });
