@@ -1,15 +1,12 @@
 blocks['b-page'] = function(data) {
     return {
         block : 'b-page',
-        title : 'ololo',
+        title : 'Парсер Хабра',
         favicon : '/favicon.ico',
         head : [
-            { elem : 'meta', attrs : { name : 'charset', content : 'UTF-8' }},
             { elem : 'css', url : '/' + '_index.css'},
             { block : 'i-jquery', elem : 'core' },
-            { elem : 'js', url : '/' + '_index.js' },
-            { elem : 'meta', attrs : { name : 'description', content : '' }},
-            { elem : 'meta', attrs : { name : 'keywords', content : '' }}
+            { elem : 'js', url : '/' + '_index.js' }
         ],
         content : [
             {

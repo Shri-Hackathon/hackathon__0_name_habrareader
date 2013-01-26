@@ -8,15 +8,9 @@ BEM.DOM.decl('b-menu', {
     onSetMod : {
 
         'js' : function() {
-            /* ... */
+            console.log('123');
         }
 
-    }
-
-}, {
-
-    live : function() {
-        /* ... */
     }
 
 });
