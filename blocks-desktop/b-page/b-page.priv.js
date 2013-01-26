@@ -14,7 +14,16 @@ blocks['b-page'] = function(data) {
         content : [
             {
                 block: 'b-head',
-                content: '123'
+                content: [
+                    {
+                        tag: 'h1',
+                        content: 'Парсер Хабра'
+                    },
+                    {
+                        tag: 'span',
+                        content: 'Version 0.0.1'
+                    }
+                ]
             },
             blocks['b-body'](data)
         ]
