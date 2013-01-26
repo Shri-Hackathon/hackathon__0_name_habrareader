@@ -9,5 +9,6 @@ hackathon-1
 
     git clone git@github.com:Shri-Hackathon/hackathon-1.git
     cd hackathon-1
-    make server &
+    make
+    ##после установки в новом табе:
     make start
