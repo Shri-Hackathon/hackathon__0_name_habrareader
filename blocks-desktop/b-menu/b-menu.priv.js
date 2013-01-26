@@ -4,10 +4,10 @@ blocks['b-menu'] = function (data) {
         content:
             (function (data) {
                 var res = [];
-                for (var i = data.length - 1; i >= 0; i--) {
+                for (var i = data.posts.length - 1; i >= 0; i--) {
                     res.push({
                         elem:'title',
-                        content:data[i]
+                        content:data.posts[i].title
                     });
                 }
                 res[0].mods = {'state':'current'};
