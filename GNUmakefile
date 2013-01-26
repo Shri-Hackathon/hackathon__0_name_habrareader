@@ -12,6 +12,10 @@ all:: $(BEM) server
 %:: $(BEM)
 	$(info @ ->> $@)
 
+.PHONY: start
+start:: $(NODE_MODULES)
+	node boot.js
+
 .PHONY: server
 server:: $(BEM)
 	@$(BEM) server
@@ -20,7 +24,7 @@ $(BEM):: $(NODE_MODULES)
 
 $(NODE_MODULES)::
 	$(debug ---> Updating npm dependencies)
-	@$(NPM) update
+	@$(NPM) install
 
 .PHONY: clean
 clean::
