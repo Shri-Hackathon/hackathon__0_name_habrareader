@@ -15,7 +15,43 @@ blocks['b-page'] = function(data) {
                 content: 'ololo',
                 url: 'http://ya.ru'
             },
-            (function(data){return data;}) (data)
+            {
+                block: 'b-layout-table',
+                mods: { layout: '58-40'},
+                content: [
+                    {
+                        elem: 'row',
+                        content: [
+                            {
+                                elem: 'gap',
+                                rowspan: '2'
+                            },
+                            {
+                                elem: 'cell',
+                                content: {
+                                    elem: 'inner',
+                                    content: 'Left cell'
+                                }
+                            },
+                            {
+                                elem: 'cell',
+                                elemMods: { position: 'r'},
+                                content: 'Right cell'
+                            }
+                        ]
+                    },
+                    {
+                        elem: 'row',
+                        content: [
+                            {
+                                elem: 'cell',
+                                colspan: '2',
+                                content: 'Second row and one cell'
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     };
 };
