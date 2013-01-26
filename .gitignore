@@ -3,8 +3,9 @@ bem-bl
 .bem/snapshots
 node_modules
 pages/*/*.css*
-pages/*/*.i18n
 pages/*/*.js*
 !*.bemjson.js
 !*level.js
-pages/*/*.html
+
+!pages/*/*.bemjson.js
+pages/*/*.tech
