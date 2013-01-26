@@ -12,7 +12,8 @@ blocks['b-menu'] = function (data) {
                         attrs: {
                             title: data.posts[i].title
                         },
-                        js: {
+                        attrs: {
+                            id: i,
                             url: data.posts[i].url
                         }
                     });

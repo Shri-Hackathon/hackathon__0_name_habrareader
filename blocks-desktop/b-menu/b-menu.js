@@ -8,11 +8,22 @@ BEM.DOM.decl('b-menu', {
     onSetMod : {
 
         'js' : function() {
-            console.log('123');
+
         }
 
     }
 
+}, {
+    live: function () {
+        this.liveBindTo('title','click', function (e) {
+            var url = $(e.target).attr('url');
+
+            $.get('/post?url=' + url, function (data) {
+                console.log(data);
+                this.findBlockOutside('b-page').findBlockInside('b-content').domElem.html(data);
+            });
+        });
+    }
 });
 
 })();
