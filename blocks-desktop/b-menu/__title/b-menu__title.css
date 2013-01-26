@@ -1,0 +1,16 @@
+.b-menu__title
+{
+    background:#fff;
+    border-bottom:1px solid #ccc;
+    box-shadow:inset 0 -15px 20px -10px #ccc;
+    padding:10px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+.b-menu__title_state_current {
+    background: #bdf;
+    box-shadow:inset 0 -15px 20px -10px #5bf;
+    cursor: default;
+}

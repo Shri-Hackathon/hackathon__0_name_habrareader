@@ -1,0 +1,8 @@
+({
+    mustDeps: [
+        {
+            elem: 'title'
+        }
+    ],
+    shouldDeps: []
+})
