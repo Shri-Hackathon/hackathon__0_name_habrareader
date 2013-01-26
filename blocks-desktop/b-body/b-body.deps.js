@@ -1,9 +1,9 @@
 ({
     mustDeps: [{
-        elem: 'item'
+        elem: 'left'
     },
     {
-        elem: 'title'
+        elem: 'right'
     }],
     shouldDeps: []
 })

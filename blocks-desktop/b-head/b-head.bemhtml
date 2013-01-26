@@ -1,0 +1,4 @@
+block b-head {
+    tag: 'div',
+    content: '123'
+}
