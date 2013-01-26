@@ -9,15 +9,22 @@ blocks['b-menu'] = function (data) {
                     res.push({
                         elem:'title',
                         content: data.posts[i].title,
+                        mix: [{
+                            block: 'b-menu-item'
+                        }],
                         attrs: {
-                            title: data.posts[i].title
-                        },
-                        js: {
+                            title: data.posts[i].title,
+                            id: i,
                             url: data.posts[i].url
                         }
                     });
                 }
-                res[0].mods = {'state':'current'};
+                res[0].mix = [{
+                    block: 'b-menu-item',
+                    mods: {
+                        state: 'current'
+                    }
+                }];
                 return res;
 
             })(data)
