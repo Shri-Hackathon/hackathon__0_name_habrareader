@@ -1,6 +1,6 @@
 blocks['b-content'] = function(data) {
     return {
         block: 'b-content',
-        content: 'content'
+        content: data.posts[0].text
     }
 }
