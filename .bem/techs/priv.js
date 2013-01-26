@@ -9,7 +9,7 @@ exports.techMixin = {
     getBuildResult: function(prefixes, suffix, outputDir, outputName) {
         return this.__base.apply(this, arguments)
             .then(function(res) {
-                res.unshift('var blocks = module.exports;');
+                res.unshift('var blocks = {};');
                 return res;
             });
     }
