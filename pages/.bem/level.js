@@ -6,6 +6,7 @@ var extend = require('bem/lib/util').extend,
 exports.getTechs = function() {
     return {
         'bemjson.js': '',
+        'bemdecl.js': 'bemdecl.js',
         'deps.js': 'deps.js',
         'bemhtml': PATH.join(BEMBL_TECHS, 'bemhtml.js'),
         'js': 'js-i',
