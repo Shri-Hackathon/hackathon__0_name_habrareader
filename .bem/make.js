@@ -32,7 +32,7 @@ MAKE.decl('BundleNode', {
             //'bemhtml',
             //'i18n',
             //'i18n.js',
-            //'html'
+            'html'
         ];
     }
 

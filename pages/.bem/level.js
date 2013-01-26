@@ -12,7 +12,8 @@ exports.getTechs = function() {
         'bemhtml': PATH.join(BEMBL_TECHS, 'bemhtml.js'),
         'js': 'js-i',
         'css': 'css',
-        'priv.js': PATH.join(CUSTOM_TECHS, 'priv.js')
+        'priv.js': PATH.join(CUSTOM_TECHS, 'priv.js'),
+        'html': PATH.join(BEMBL_TECHS, 'html.js')
     }
 }
 
