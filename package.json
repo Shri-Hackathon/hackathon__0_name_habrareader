@@ -10,7 +10,9 @@
       "node": "0.8 | 0.9"
      },
      "dependencies": {
-      "bem": "~0.5.23"
+      "bem": "~0.5.23",
+      "express": "3.0.x",
+      "request": "2.12.x"
      },
      "devDependencies": {},
      "private": true
