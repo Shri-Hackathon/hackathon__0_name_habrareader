@@ -1,6 +1,7 @@
 var extend = require('bem/lib/util').extend,
     PRJ_TECHS = '../../',
     PATH = require('path'),
+    CUSTOM_TECHS = PATH.join(PRJ_TECHS, '.bem/techs'),
     BEMBL_TECHS = '../../bem-bl/blocks-common/i-bem/bem/techs';
 
 exports.getTechs = function() {
@@ -11,7 +12,7 @@ exports.getTechs = function() {
         'bemhtml': PATH.join(BEMBL_TECHS, 'bemhtml.js'),
         'js': 'js-i',
         'css': 'css',
-        'priv': 'priv'
+        'priv.js': PATH.join(CUSTOM_TECHS, 'priv.js')
     }
 }
 
