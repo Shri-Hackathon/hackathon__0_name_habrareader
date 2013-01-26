@@ -8,6 +8,6 @@ hackathon-1
 ##Usage
 
     git clone git@github.com:Shri-Hackathon/hackathon-1.git
-    cd hachathon-1
+    cd hackathon-1
     make server &
     make start
