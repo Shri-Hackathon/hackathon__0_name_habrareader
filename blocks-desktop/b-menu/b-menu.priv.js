@@ -5,10 +5,10 @@ blocks['b-menu'] = function (data) {
         content:
             (function (data) {
                 var res = [];
-                for (var i = data.posts.length - 1; i >= 0; i--) {
+                for (var i = 0; i < data.posts.length; i++) {
                     res.push({
                         elem:'title',
-                        content:data.posts[i].title,
+                        content: data.posts[i].title,
                         attrs: {
                             title: data.posts[i].title
                         },
