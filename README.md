@@ -1,4 +1,4 @@
-hackathon-1
+habrareader
 ===========
 
 ##Цель
