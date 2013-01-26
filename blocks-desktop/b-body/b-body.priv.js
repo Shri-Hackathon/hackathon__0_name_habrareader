@@ -4,11 +4,11 @@ blocks['b-body'] = function(data) {
         content: [
             {
                 elem: 'left',
-                content: [] //blocks['b-menu'](data)
+                content: blocks['b-menu'](data)
             },
             {
                 elem: 'right',
-                content: [] // blocks['b-content'](data)
+                content: blocks['b-content'](data)
             }
         ]
     }
