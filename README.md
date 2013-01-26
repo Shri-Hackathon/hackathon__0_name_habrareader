@@ -12,4 +12,5 @@ cd hackathon__0_name_habrareader
 make
 #после установки в новом табе:
 make start
+#можно открывать http://localhost:8081/
 ```
