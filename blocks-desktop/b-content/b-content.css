@@ -1,12 +1,5 @@
 .b-content
 {
-    margin: 5px;
-}
-.b-content
-{
+    margin: 20px 10% 20px 5%;
     line-height: 20px;
-}
-.b-content img
-{
-    margin: 10px;
 }
