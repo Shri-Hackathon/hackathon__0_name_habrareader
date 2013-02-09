@@ -6,6 +6,7 @@ blocks['b-page'] = function(data) {
         head : [
             { elem : 'css', url : 'http://habrahabr.ru/styles/1360227546/all.css'},
             { elem : 'css', url : 'http://habrahabr.ru/styles/1360227546/_parts/posts.css'},
+            { elem : 'css', url : 'http://habrahabr.ru/styles/1360227546/highlight.css'},
             { elem : 'css', url : '/' + '_index.css'},
             { block : 'i-jquery', elem : 'core' },
             { elem : 'js', url : '/' + '_index.js' }
